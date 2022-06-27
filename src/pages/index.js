@@ -14,10 +14,11 @@ const Home = () => {
     <>      
       <Sidebar isOpen={isOpen} toggle={toggle}/> 
       <Navbar toggle={toggle} />
-      {/* <HeroSection/> */}
+      <HeroSection/>
 
     </>
   )
 }
 
 export default Home
+
